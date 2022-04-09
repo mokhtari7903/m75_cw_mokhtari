@@ -7,6 +7,5 @@ let aSen = sentence.split(' ');
 const isEx = aSen.filter((item) => { return item === word});
 
 return isEx[0] === word;
-
 }
 console.log(findWord(word1, sentence1));
